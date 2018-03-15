@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/Circular Room Layout.unity
+  isLoaded: 1
+  isActive: 1
