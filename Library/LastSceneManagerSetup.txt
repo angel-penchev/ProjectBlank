@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Circular Room Layout.unity
+- path: Assets/Scene/ApartmentsArea.unity
   isLoaded: 1
   isActive: 1
