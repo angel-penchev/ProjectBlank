@@ -41,6 +41,9 @@ ModelImporter:
     100066: Circle.032
     100068: Circle.033
     100070: Circle.034
+    100072: Circle.035
+    100074: Circle.036
+    100076: Circle.037
     400000: //RootNode
     400002: Circle
     400004: Circle.001
@@ -77,6 +80,9 @@ ModelImporter:
     400066: Circle.032
     400068: Circle.033
     400070: Circle.034
+    400072: Circle.035
+    400074: Circle.036
+    400076: Circle.037
     2100000: No Name
     2100002: Default
     2100004: Material.001
@@ -116,6 +122,9 @@ ModelImporter:
     2300066: Circle.032
     2300068: Circle.033
     2300070: Circle.034
+    2300072: Circle.035
+    2300074: Circle.036
+    2300076: Circle.037
     3300000: Circle
     3300002: Circle.001
     3300004: //RootNode
@@ -152,6 +161,9 @@ ModelImporter:
     3300066: Circle.032
     3300068: Circle.033
     3300070: Circle.034
+    3300072: Circle.035
+    3300074: Circle.036
+    3300076: Circle.037
     4300000: Circle.001
     4300002: Circle
     4300004: Circle.034
@@ -187,6 +199,9 @@ ModelImporter:
     4300064: Circle.005
     4300066: Circle.004
     4300068: Circle.003
+    4300070: Circle.037
+    4300072: Circle.036
+    4300074: Circle.035
   externalObjects: {}
   materials:
     importMaterials: 1
