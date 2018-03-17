@@ -8,7 +8,11 @@ public class buttonPress : MonoBehaviour {
 	
 	public List<int> codeNow = new List<int>();
 	public List<int> constantCode = new List<int>() { 1, 9, 8, 8 };
-	
+	public GameObject door;
+	public GameObject door2;
+	public GameObject door3;
+	public GameObject door4;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -20,9 +24,14 @@ public class buttonPress : MonoBehaviour {
 		
 		if(codeNow.SequenceEqual(constantCode))
 		{
-			Debug.Log("Its Alive!!!");
+			Debug.Log("vsdcsv");
+			door.GetComponent<ConstantForce>().enabled = false;
+			door2.GetComponent<ConstantForce>().enabled = false;
+			door3.GetComponent<ConstantForce>().enabled = false;
+			door4.GetComponent<ConstantForce>().enabled = false;
+
 		}
-        int lSize = codeNow.Count;
+		int lSize = codeNow.Count;
 		if (lSize >= 4)
 		{
 			codeNow.Clear();

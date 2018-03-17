@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ADFF92A1-99A8-C68B-DCF1-723D5B319EFD}</ProjectGuid>
+    <ProjectGuid>{EE81AEFB-8BE2-465E-ADE7-FD9A31E17C7F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -173,10 +173,10 @@
  <HintPath>D:/unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
- <HintPath>D:/projectBlank/Project_blank_tuesday/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+ <HintPath>D:/github/ProjectBlank/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
- <HintPath>D:/projectBlank/Project_blank_tuesday/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+ <HintPath>D:/github/ProjectBlank/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/boqni/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

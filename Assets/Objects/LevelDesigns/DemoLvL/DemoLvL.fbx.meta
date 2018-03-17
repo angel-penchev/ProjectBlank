@@ -59,6 +59,8 @@ ModelImporter:
     100102: Cylinder.002
     100104: Plane
     100106: Sphere
+    100108: Ceiling
+    100110: Floor
     400000: //RootNode
     400002: Circle
     400004: Circle.001
@@ -113,11 +115,15 @@ ModelImporter:
     400102: Cylinder.002
     400104: Plane
     400106: Sphere
+    400108: Ceiling
+    400110: Floor
     2100000: No Name
     2100002: Default
     2100004: Material.001
     2100006: Material.002
     2100008: Material.000
+    2100010: Concrete
+    2100012: Floor_wood
     2300000: Circle
     2300002: Circle.001
     2300004: //RootNode
@@ -172,6 +178,8 @@ ModelImporter:
     2300102: Cylinder.002
     2300104: Plane
     2300106: Sphere
+    2300108: Ceiling
+    2300110: Floor
     3300000: Circle
     3300002: Circle.001
     3300004: //RootNode
@@ -226,6 +234,8 @@ ModelImporter:
     3300102: Cylinder.002
     3300104: Plane
     3300106: Sphere
+    3300108: Ceiling
+    3300110: Floor
     4300000: Circle.001
     4300002: Circle
     4300004: Circle.034
@@ -279,6 +289,8 @@ ModelImporter:
     4300100: Circle.048
     4300102: Cylinder.002
     4300104: Sphere
+    4300106: Ceiling
+    4300108: Floor
   externalObjects: {}
   materials:
     importMaterials: 1
