@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class buttonPress : MonoBehaviour {
 
+	
 	public List<int> codeNow = new List<int>();
 	public List<int> constantCode = new List<int>() { 1, 9, 8, 8 };
 	
@@ -16,15 +17,16 @@ public class buttonPress : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		int lSize = codeNow.Count;
+		
 		if(codeNow.SequenceEqual(constantCode))
 		{
 			Debug.Log("Its Alive!!!");
 		}
-
-		if (lSize > 4)
+        int lSize = codeNow.Count;
+		if (lSize >= 4)
 		{
 			codeNow.Clear();
 		}
+		
 	}
 }

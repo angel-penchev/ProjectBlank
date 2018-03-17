@@ -23,7 +23,14 @@ public class Button0 : MonoBehaviour
 
 	void OnMouseDown()
 	{
-		bp.codeNow.Add(but0);
+		if(but0 == 10)
+		{
+			bp.codeNow.Clear();
+		}
+		else
+		{
+			bp.codeNow.Add(but0);
+		}
 
 	}
 }

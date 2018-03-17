@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
 
 	void Update()
 	{
+		if (Input.GetKey(KeyCode.Escape))
+			Screen.lockCursor = false;
+		else
+			Screen.lockCursor = true;
 		//Calculate movement velocity as a 3D vector
 		float _xMov = Input.GetAxisRaw("Horizontal");
 		float _zMov = Input.GetAxisRaw("Vertical");

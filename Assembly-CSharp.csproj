@@ -51,8 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Pickupable.cs" />
-     <Compile Include="Assets\Scripts\PickupObject.cs" />
+     <Compile Include="Assets\Objects\Props\Numpad\Button0.cs" />
+     <Compile Include="Assets\Objects\Props\Numpad\buttonPress.cs" />
+     <Compile Include="Assets\Scripts\moveObject.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerMotor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
