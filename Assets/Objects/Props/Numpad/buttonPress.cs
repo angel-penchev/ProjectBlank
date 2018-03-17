@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+
 public class buttonPress : MonoBehaviour {
 
 	
@@ -12,9 +13,12 @@ public class buttonPress : MonoBehaviour {
 	public GameObject door2;
 	public GameObject door3;
 	public GameObject door4;
+	public string numpadString;
 
 	// Use this for initialization
 	void Start () {
+		
+
 		
 	}
 	
@@ -29,12 +33,13 @@ public class buttonPress : MonoBehaviour {
 			door2.GetComponent<ConstantForce>().enabled = false;
 			door3.GetComponent<ConstantForce>().enabled = false;
 			door4.GetComponent<ConstantForce>().enabled = false;
-
+			numpadString = "";
 		}
 		int lSize = codeNow.Count;
 		if (lSize >= 4)
 		{
 			codeNow.Clear();
+			numpadString = "";
 		}
 		
 	}

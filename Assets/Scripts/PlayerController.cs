@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 	[SerializeField]
 	private float lookSensitivity = 3f;
 	private PlayerMotor motor;
+	private Vector3 constantPosition = Vector3.zero;
+	private Vector3 nowPosition = Vector3.zero;
 
 	[SerializeField]
 	private float thrusterForse = 1000f;
@@ -16,10 +18,12 @@ public class PlayerController : MonoBehaviour
 	void Start()
 	{
 		motor = GetComponent<PlayerMotor>();
+		constantPosition = GameObject.Find("Player").transform.position;
 	}
 
 	void Update()
 	{
+		nowPosition = GameObject.Find("Player").transform.position;
 		if (Input.GetKey(KeyCode.Escape))
 			Screen.lockCursor = false;
 		else
@@ -55,9 +59,13 @@ public class PlayerController : MonoBehaviour
 
 
 		Vector3 _thrusterforce = Vector3.zero;
-		if (Input.GetButton("Jump"))
+		if (Input.GetKeyDown("space"))
 		{
-			_thrusterforce = Vector3.up * thrusterForse;
+			if (nowPosition.y >= constantPosition.y - 0.5 && nowPosition.y <= constantPosition.y + 0.5)
+			{
+				_thrusterforce = Vector3.up * thrusterForse;
+			}
+
 		}
 		else if (Input.GetKey("z"))
 		{
