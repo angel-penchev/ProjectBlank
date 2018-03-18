@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/ApartmentsArea.unity
+- path: Assets/Scene/GameLevel.unity
   isLoaded: 1
   isActive: 1
