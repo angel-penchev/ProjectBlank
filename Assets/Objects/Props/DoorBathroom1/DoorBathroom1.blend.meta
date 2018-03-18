@@ -4,7 +4,36 @@ timeCreated: 1521102853
 licenseType: Pro
 ModelImporter:
   serializedVersion: 22
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: Camera01
+    100002: //RootNode
+    100004: Omni01
+    100006: Omni02
+    100008: Rectangle0
+    400000: Camera01
+    400002: //RootNode
+    400004: Omni01
+    400006: Omni02
+    400008: Rectangle0
+    2100000: Matesedff
+    2100002: Materialedfdsf
+    2100004: Matdsfsdf
+    2100006: Materiadfdsf
+    2100008: Materidfdsf
+    2300000: Camera01
+    2300002: Omni01
+    2300004: Omni02
+    2300006: Rectangle0
+    3300000: Camera01
+    3300002: Omni01
+    3300004: Omni02
+    3300006: Rectangle0
+    4300000: Rectangle0
+    4300002: Camera01
+    4300004: Omni02
+    4300006: Omni01
+    7400000: Default Take
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
